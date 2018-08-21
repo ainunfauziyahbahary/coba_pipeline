@@ -24,11 +24,7 @@ pipeline {
                 success {
                     junit 'NumberGenerator/target/surefire-reports/*.xml'
                         }
-                 }
-               
-
-           
+                 }             
             }
         }
-    
 }
